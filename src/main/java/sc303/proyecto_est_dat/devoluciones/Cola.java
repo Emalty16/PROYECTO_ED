@@ -20,8 +20,8 @@ public class Cola {
         }
     }
 
-    public void encolar(Devoluciones de) {
-        Nodo nuevoNodo = new Nodo(de);
+    public void encolar(Devoluciones d) {
+        Nodo nuevoNodo = new Nodo(d);
         if (isEmpty()) {
             setHead(nuevoNodo);
         } else {
